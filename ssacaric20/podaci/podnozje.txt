@@ -1,0 +1,15 @@
+</section>
+
+<footer>
+  <p class="podnozje">&copy; 2023 SANDRA SAČARIĆ</p>
+
+      <a class="htmlval" href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_02/ssacaric20/ostalo/grid.html">
+        <img class="footikon" src="../dokumenti/slike/html_ikona.png" alt="HTML5"></a>
+      <a class="cssval" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Fssacaric20%2Fcss%2Fssacaric20.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+          <img class="footikon" src="../dokumenti/slike/vcss.png" alt="CSS"></a>
+      <a href="https://en.wikipedia.org/wiki/Creative_Commons_NonCommercial_license">
+        <img src="../dokumenti/slike/licenca.png" alt="CC BY-NC licenca"></a>
+</footer>
+
+</body>
+</html>

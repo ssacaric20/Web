@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<title>
+    San Sunny
+</title>
+<meta charset="utf-8">
+<meta name="application-name" content="HTML">
+<meta name="description" content="Zadaća: Hotel stranica">
+<meta name="author" content="Sandra Sačarić">
+<meta name="keywords" content="HTML, CSS, FOI, homework, sunny hotel">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/ssacaric20_responzivni_dizajn.css" rel="stylesheet" type="text/css">
+<link href="../css/ssacaric20.css" rel="stylesheet" type="text/css">
+<script src="/javascript" defer></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<header>
+  <a class="logo" href="/">
+    <img src="../dokumenti/slike/logo_ikonica.png" alt="logo">
+  </a>
+    <div class="okvirheader">
+      <div class="headernaslov">
+        <h2 class="bruh font-weight-bold">Sunny's hotel</h2>
+      </div>
+    </div>
+</header>
+
+<section>
+  <div class="plejsholdr-nav">Izbornik</div>
+  <nav>
+    <a class="pasivna" href="/">Početna</a>
+    <a class="pasivna" href="/autor">Autor</a>
+    <a class="aktivna" href="/grid">Ponude</a>
+    <a class="pasivna" href="/dokumentacija">Dokumentacija</a>
+    <a class="pasivna" href="/dinamicna">Dinamična</a>
+    <a class="pasivna" href="/api/rezervacije">Rezervacije</a>
+  </nav>
+</section>
+<h1 class="nasodj font-weight-bold">Ponude</h1>
+<section id="griddy">
+  <div class="grid-item"><div><h3>Akcijska ponuda 1:</h3><p>Noćenje i tri obroka. Podrazumijeva produženi doručak i rani ručak, te večeru za dvije osobe i jedno ili dvoje djece do 15 godina u trokrevetnoj ili obiteljskoj sobi s balkonom. Neograničeno korištenje bazena i besplatno parkiranje</p>
+  </div></div>
+  <div class="grid-item"><div><h3>Akcijska ponuda 2:</h3><p>Noćenje i dva obroka. Podrazumijeva produženi ručak i večeru za dvije osobe i jedno ili dvoje djece do 15 godina u trokrevetnoj ili obiteljskoj sobi s balkonom. Besplatno parkiranje</p>
+  </div></div>
+  <div class="grid-item"><div><h3>Akcijska ponuda 3:</h3><p>Noćenje (bez obroka). Podrazumijeva sobu za jednu osobu, uz opciju televizije. Besplatno parkiranje. Za ostale pogodnosti potrebno je pitati na recepciji.</p>
+  </div></div>
+</section>
+<section class="sekcija">
+  <h1 id="cjenik" class="nasodj">Cjenik</h1>
+  <div id="rotirajse">Ovo je rotirajući sadržaj</div>
+  <div id="animirajse">Ovo je element za animaciju</div>
+  <div id="ludi">Drugi element za animaciju</div>
+  <table id="stolic" class="table-bordered">
+    <thead>
+        <tr>
+            <th>Usluga</th>
+            <th>Opis</th>
+            <th class="right">Cijena</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jednokrevetna soba</td>
+            <td>Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">20€</td>
+        </tr>
+        <tr>
+            <td>Dvokrevetna soba</td>
+            <td>Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje</td>
+            <td class="right" rowspan="2">30€</td>
+        </tr>
+        <tr>
+            <td>Soba s bračnim krevetom</td>
+            <td>Soba koja uključuje spojeni krevet za dvije osobe. Cijena se odnosi na jedno noćenje.</td>
+        </tr>
+        <tr>
+            <td>Trokrevetna soba</td>
+            <td>Soba koja uključuje dva odvojena kreveta. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">40€</td>
+        </tr>
+        <tr>
+            <td>Obiteljska soba</td>
+            <td>Soba koja uključuje tri odvojena kreveta. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">45€</td>
+        </tr>
+        <tr>
+            <td>Televizija, klima uređaj</td>
+            <td>Cijena televizora i klima uređaja obračunava se pojedinačno</td>
+            <td class="right">10€</td>
+        </tr>
+        <tr>
+            <td>Balkon, manji</td>
+            <td rowspan="2">Naplata sobe sa balkonom ovisi o dimenzijama</td>
+            <td class="right">20€</td>
+        </tr>
+        <tr>
+            <td>Balkon, veći</td>
+            <td class="right">30€</td>
+        </tr>
+        <tr>
+            <td>Bazen</td>
+            <td>Bazen je namijenjen za privatno korištenje</td>
+            <td class="right">50€</td>
+        </tr>
+        <tr>
+            <td>Rezervacija</td>
+            <td>Rezervacija sobe unaprijed</td>
+            <td class="right">10€</td>
+        </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="right" colspan="3">Polog se računa ovisno o odabranim opcijama.</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<footer>
+  <p class="podnozje">&copy; 2023 SANDRA SAČARIĆ</p>
+
+      <a class="htmlval" href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_02/ssacaric20/ostalo/grid.html">
+        <img class="footikon" src="../dokumenti/slike/html_ikona.png" alt="HTML5"></a>
+      <a class="cssval" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Fssacaric20%2Fcss%2Fssacaric20.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+          <img class="footikon" src="../dokumenti/slike/vcss.png" alt="CSS"></a>
+      <a href="https://en.wikipedia.org/wiki/Creative_Commons_NonCommercial_license">
+        <img src="../dokumenti/slike/licenca.png" alt="CC BY-NC licenca"></a>
+</footer>
+
+</body>
+</html>
+

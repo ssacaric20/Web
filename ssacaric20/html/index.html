@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <title>
+    San Sunny
+  </title>
+    <meta charset="utf-8">
+    <meta name="application-name" content="HTML">
+    <meta name="description" content="Zadaća: Hotel stranica">
+    <meta name="author" content="Sandra Sačarić">
+    <meta name="keywords" content="HTML, CSS, FOI, homework, sunny hotel">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/ssacaric20.css" rel="stylesheet" type="text/css">
+    <link href="../css/ssacaric20_responzivni_dizajn.css" rel="stylesheet" type="text/css">
+    <script src="../jsk/ssacaric20.js" defer></script>
+
+</head>
+<body>
+  <header  id="naslov">
+  <a class="logo" href="index.html">
+    <img src="../dokumenti/slike/logo_ikonica.png" alt="logo">
+  </a>
+    <div class="okvirheader">
+      <div class="headernaslov">
+        <h2 class="bruh">Sunny's hotel</h2>
+        <div class="navigejsn">
+          <a href="index.html#naslov" class="n1">1.</a>
+          <a href="index.html#ponude" class="n2">2.</a>
+          <a href="index.html#cjenik" class="n3">3.</a>
+          <a href="index.html#rezerv" class="n4">4.</a>
+          <a href="index.html#galerija" class="n5">5.</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="plejsholdr-nav">Izbornik</div>
+      <nav>
+            <a class="aktivna" href="/">Početna</a>
+            <a class="pasivna" href="/autor">Autor</a>
+            <a class="pasivna" href="/grid">Ponude</a>
+            <a class="pasivna" href="/dokumentacija">Dokumentacija</a>
+            <a class="pasivna" href="/dinamicna">Dinamična</a>
+            <a class="pasivna" href="/api/rezervacije">Rezervacije</a>
+    </nav>
+  </section>
+  <h1 class="nasodj" id="ponude">Ponude</h1>
+  <div class="banner">
+  <div class="broooo">
+    <div class="desc"><img src="../dokumenti/slike/hotel_icon.png" alt="informacije"><a class="podeb" href="index.html#ak1">Akcijska ponuda 1: </a><p>pansion</p></div>
+    <div class="desc"><img src="../dokumenti/slike/room_icon.png" alt="sobe"><a class="podeb" href="index.html#ak2">Akcijska ponuda 2: </a><p>polupansion</p></div>
+    <div class="desc"><img src="../dokumenti/slike/rezervacija_icon.png" alt="rezervacija"><a class="podeb" href="index.html#ak3">Akcijska ponuda 3: </a><p>noćenje</p></div>
+  </div>
+  </div>
+  <section class="sekcija">
+    <p>Sunny's hotel, smješten uz obalu Okinawe, u gradu Nago, izvrstan je izbor za poslovne goste, kao i za sve koji turistički posjećuju Nago. Moderne sobe uz king size krevete i velike kupaonice nude udobnost kao kod kuće. Najveći suitovi na 10. katu hotela s terasom s pogledom na more zadovoljit će najzahtjevnije goste na odmoru ili poslovnom putovanju.</p>
+    <div class="broooo"><img class="zint" src="../dokumenti/slike/za_interaktivnu.jpg" id="interaktivna" alt="interaktivna" usemap="#mapa">
+      <map name="mapa">
+        <area alt="Pravokutnik" href="/#cjenik" coords="560,100,600,160" shape="rect">
+        <area alt="pravokutnik" href="/#rezerv" coords="200,135,410,235" shape="rect">
+        <area alt="Višekut" href="/#galerija" coords="0,400,0,325,100,260,180,300,340,300,380,400" shape="poly">
+      </map>
+    </div>
+    <div class="broooo"><div class="desc"><p>Kliknite na TV kako biste otišli na cjenik.</p></div>
+    <div class="desc"><p>Kliknite na prozor kako biste otišli na obrasce.</p></div>
+    <div class="desc"><p>Kliknite na krevet kako biste otišli na galeriju.</p></div></div>
+    <h1 id="cjenik" class="nasodj">Cjenik</h1>
+  <table id="stolic" class="border">
+    <thead>
+        <tr>
+            <th>Usluga</th>
+            <th>Opis</th>
+            <th class="right">Cijena</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jednokrevetna soba</td>
+            <td>Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">20€</td>
+        </tr>
+        <tr>
+            <td>Dvokrevetna soba</td>
+            <td>Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje</td>
+            <td class="right" rowspan="2">30€</td>
+        </tr>
+        <tr>
+            <td>Soba s bračnim krevetom</td>
+            <td>Soba koja uključuje spojeni krevet za dvije osobe. Cijena se odnosi na jedno noćenje.</td>
+        </tr>
+        <tr>
+            <td>Trokrevetna soba</td>
+            <td>Soba koja uključuje dva odvojena kreveta. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">40€</td>
+        </tr>
+        <tr>
+            <td>Obiteljska soba</td>
+            <td>Soba koja uključuje tri odvojena kreveta. Cijena se odnosi na jedno noćenje</td>
+            <td class="right">45€</td>
+        </tr>
+        <tr>
+            <td>Televizija, klima uređaj</td>
+            <td>Cijena televizora i klima uređaja obračunava se pojedinačno</td>
+            <td class="right">10€</td>
+        </tr>
+        <tr>
+            <td>Balkon, manji</td>
+            <td rowspan="2">Naplata sobe sa balkonom ovisi o dimenzijama</td>
+            <td class="right">20€</td>
+        </tr>
+        <tr>
+            <td>Balkon, veći</td>
+            <td class="right">30€</td>
+        </tr>
+        <tr>
+            <td>Bazen</td>
+            <td>Bazen je namijenjen za privatno korištenje</td>
+            <td class="right">50€</td>
+        </tr>
+        <tr>
+            <td>Rezervacija</td>
+            <td>Rezervacija sobe unaprijed</td>
+            <td class="right">10€</td>
+        </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="right" colspan="3">Polog se računa ovisno o odabranim opcijama.</td>
+      </tr>
+    </tfoot>
+  </table>
+  <div id="hoverpreko"></div>
+    <h1 class="nasodj">Detaljno o ponudama</h1>
+    <div class="container">
+    <div class="pon" id="ak1"><h3>Akcijska ponuda 1:</h3><p>Noćenje i tri obroka. Podrazumijeva produženi doručak i rani ručak, te večeru za dvije osobe i jedno ili dvoje djece do 15 godina u trokrevetnoj ili obiteljskoj sobi s balkonom. Neograničeno korištenje bazena i besplatno parkiranje</p>
+    </div>
+    <div class="pon" id="ak2"><h3>Akcijska ponuda 2:</h3><p>Noćenje i dva obroka. Podrazumijeva produženi ručak i večeru za dvije osobe i jedno ili dvoje djece do 15 godina u trokrevetnoj ili obiteljskoj sobi s balkonom. Besplatno parkiranje</p>
+    </div>
+    <div class="pon" id="ak3"><h3>Akcijska ponuda 3:</h3><p>Noćenje (bez obroka). Podrazumijeva sobu za jednu osobu, uz opciju televizije. Besplatno parkiranje. Za ostale pogodnosti potrebno je pitati na recepciji.</p>
+    </div>
+    </div>
+    <h1 id="mapa" class="nasodj">Lokacija hotela</h1>
+    <div class="google">
+      <iframe title="gugl mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28558.163526539014!2d127.92579129640454!3d26.527506480864997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e50049cdeae511%3A0x9cd5ecb8117912a9!2sKise%2C%20Nago%2C%20Okinawa%20905-0026%2C%20Japan!5e0!3m2!1shr!2shr!4v1680432593844!5m2!1shr!2shr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+    <h1 id="rezerv" class="nasodj">Obrazac za rezervaciju sobe</h1>
+    <form name="obrazac" id="obrazac" method="POST" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php">
+      <div class="grid-wrapper">
+          <div class="grid-item2">
+          <fieldset>
+          <legend>Podaci: </legend>
+            <div>
+              <label class="podeb">Ime</label>
+              <input class="unos" type="text" name="ime" id="ime" required>
+            </div>
+            <div>
+              <label class="podeb">Prezime</label>
+              <input class="unos" type="text" name="prez" id="prez" required>
+            </div>
+      </fieldset>
+  </div>
+  <div class="grid-item2">
+      <fieldset>
+          <legend>Soba: </legend>
+          <label class="podeb">Broj kreveta
+          </label>
+          <select class="unos" name="brkr" id="brkr">
+              <option>Jednokrevetna</option>
+              <option>Dvokrevetna</option>
+              <option>Trokrevetna</option>
+              <option>Obiteljska</option>
+          </select>
+          <label class="podeb">Dodaci</label>
+          <div>
+              <label>Televizor</label>
+              <input name="dodaci0" id="selekt-0" type="checkbox">
+              <label>Bazen</label>
+              <input name="dodaci1" id="selekt-1" type="checkbox">
+              <label>Klima uređaj</label>
+              <input name="dodaci2" id="selekt-2" type="checkbox">
+              <label>Balkon</label>
+              <input name="dodaci3" id="selekt-3" type="checkbox">
+          </div>
+            <label class="podeb">Datum odsjedanja</label>
+            <input class="unos" type="date" name="dat" id="dat" required>
+          <div>
+              <label class="podeb" for="time">Odaberite vrijeme:</label>
+              <input class="unos" type="time" id="time" name="vrijeme" required>
+          </div>
+      </fieldset>
+  </div>
+  <div class="grid-item2">
+      <fieldset>
+          <legend>Plaćanje: </legend>
+          <label class="podeb">Plaćanje karticom </label>
+          <div>
+              <label>Da</label>
+              <input name="plata[]" id="plata0" value="opcija1" type="radio" required>
+              <label>Ne</label>
+              <input name="plata[]" id="plata1" value="opcija2" type="radio" required>
+          </div>
+          <button type="reset" value="Reset">Resetiraj</button>
+          <button id="jojbutt" type="submit" formmethod="post"
+              formaction="https://spider.foi.hr/OWT/materijali/ispis_forme.php">Šalji</button>
+      </fieldset>
+  </div>
+  </div>
+  </form>
+  <h1 id="kontakt" class="nasodj">Obrazac za kontakt</h1>
+  <form name="obrazack" id="obrazack" method="POST" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php">
+    <div class="grid-wrapper2">
+      <div class="grid-item2">
+      <fieldset>
+          <legend>Naslov i tip poruke: </legend>
+            <input class="unos" type="text" name="predmet" id="predmet" placeholder="Predmet" size="30" required>
+            <div>
+              <br>
+              <p>Prijeđite mišem preko kružića kako biste vidjeli kakav tip poruke želite odabrati.</p>
+                <input name="vrstapitanja" id="selekt0" value="1" type="radio" title="Pitanje vezano za plaćanje" checked>
+                <input name="vrstapitanja" id="selekt1" value="2" type="radio" title="Pitanje vezano za smještaj">
+                <input name="vrstapitanja" id="selekt2" value="3" type="radio" title="Pitanje vezano za povrat novaca">
+                <input name="vrstapitanja" id="selekt3" value="4" type="radio" title="Pitanje vezano za rezervaciju">
+            </div>
+      </fieldset>
+      </div>
+      <div class="grid-item2">
+      <fieldset>
+        <legend>Sadržaj: </legend>
+        <textarea name="sadrzajporuke" rows="10" cols="40" required>Poruka</textarea>
+        <button type="submit" formmethod="post" formaction="https://spider.foi.hr/OWT/materijali/ispis_forme.php">Šalji</button>
+      </fieldset>
+      </div>
+    </div>
+  </form>
+
+  <div id="ummfull">
+    <h1 id="galerija" class="nasodj">Galerija</h1>
+    <div class="container">
+          <figure>
+            <figcaption>Ikonica za logo</figcaption>
+            <a href="https://www.flaticon.com/free-icon/sun_1788866?related_id=1788911&origin=search">
+              <img class="povecalo" src="../dokumenti/slike/logo_ikonica.png" alt="logo">
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Ikonica za prikaz hotela</figcaption>
+            <a href="https://www.flaticon.com/free-icon/hotel_3378693">
+              <img class="povecalo" src="../dokumenti/slike/hotel_icon.png" alt="hotel">
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Ikonica za prikaz kalendara</figcaption>
+            <a href="https://www.flaticon.com/free-icon/booking_489848">
+              <img class="povecalo" src="../dokumenti/slike/rezervacija_icon.png" alt="kalendar">
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Ikonica za prikaz sobe</figcaption>
+            <a href="https://www.flaticon.com/free-icon/hotel_489870">
+              <img class="povecalo" src="../dokumenti/slike/room_icon.png" alt="soba">
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Ikonica za prikaz sata</figcaption>
+            <a href="https://www.citypng.com/photo/21540/time-clock-black-icon">
+              <img class="povecalo" src="../dokumenti/slike/clock_icon.png" alt="sat">
+            </a>
+          </figure>
+    </div>
+  </div>
+  <section class="sekcija">
+    <h1 id="video" class="nasodj">Video</h1>
+    <div class="google">
+      <iframe src="../dokumenti/multimedija/valovi.mp4" title="valovi" allow="autoplay;"
+      allowfullscreen></iframe>
+    </div>
+  </section>
+
+    <footer>
+      <p class="podnozje">&copy; 2023 SANDRA SAČARIĆ</p>
+          <a class="htmlval" href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_02/ssacaric20/index.html">
+            <img class="footikon" src="../dokumenti/slike/html_ikona.png" alt="HTML5"></a>
+            <a class="cssval" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Fssacaric20%2Fcss%2Fssacaric20.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+              <img class="footikon" src="../dokumenti/slike/vcss.png" alt="CSS"></a>
+          <a href="https://en.wikipedia.org/wiki/Creative_Commons_NonCommercial_license">
+            <img src="../dokumenti/slike/licenca.png" alt="CC BY-NC licenca"></a>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,52 @@
+[
+ {
+   "Usluga": "Jednokrevetna soba",
+   "Opis": "Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje",
+   "Cijena": 20
+ },
+ {
+   "Usluga": "Jednokrevetna soba",
+   "Opis": "Soba koja uključuje krevet za jednu osobu. Cijena se odnosi na jedno noćenje",
+   "Cijena": 30
+ },
+ {
+   "Usluga": "Soba s bračnim krevetom",
+   "Opis": "Soba koja uključuje spojeni krevet za dvije osobe. Cijena se odnosi na jedno noćenje.",
+   "Cijena": 30
+ },
+ {
+   "Usluga": "Trokrevetna soba",
+   "Opis": "Soba koja uključuje dva odvojena kreveta. Cijena se odnosi na jedno noćenje",
+   "Cijena": 40
+ },
+ {
+   "Usluga": "Obiteljska soba",
+   "Opis": "Soba koja uključuje tri odvojena kreveta. Cijena se odnosi na jedno noćenje",
+   "Cijena": 45
+ },
+ {
+   "Usluga": "Telivizija, klima uređaj",
+   "Opis": "Cijena televizora i klima uređaja obračunava se pojedinačno",
+   "Cijena": 10
+ },
+ {
+   "Usluga": "Balkon, manji",
+   "Opis": "Naplata sobe sa balkonom ovisi o dimenzijama",
+   "Cijena": 20
+ },
+ {
+   "Usluga": "Balkon, veći",
+   "Opis": "Naplata sobe sa balkonom ovisi o dimenzijama",
+   "Cijena": 30
+ },
+ {
+   "Usluga": "Bazen",
+   "Opis": "Bazen je namijenjen za privatno korištenje",
+   "Cijena": 50
+ },
+ {
+   "Usluga": "Rezervacija",
+   "Opis": "Rezervacija sobe unaprijed",
+   "Cijena": 10
+ }
+]
